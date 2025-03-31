@@ -2,7 +2,7 @@ import numpy
 
 def run():
     chestnum, victornum = [], []
-    usrchst = int(input("Chest amount that you want to find the winning chests of >>> "))
+    usrchst = int(input("People # that you want to find the suriving person of >>> "))
     if usrchst == 0:
         print("Not a Number")
         run()
