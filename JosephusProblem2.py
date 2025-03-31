@@ -1,3 +1,5 @@
+import numpy
+
 def run():
     chestnum, victornum = [], []
     usrchst = int(input("Chest amount that you want to find the winning chests of >>> "))
@@ -19,7 +21,7 @@ def run():
     victornum.insert(0, 1)
     chestnum.insert(0, 1)
 
-    print(f"For {usrchst} chests, chest #{victornum[-2]} will win")
+    print(f"For {usrchst} people, person #{victornum[-2]} will survive")
 
 while True:
     run()
